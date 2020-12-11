@@ -13,12 +13,10 @@ public class LA7_GUI_3 extends JFrame {
         c.setLayout(null);
         c.addMouseListener(new MyMouseListener());
 
-		word.setBounds(50, 50, 100, 100);
+		word.setBounds(100, 50, 40, 40);
         setSize(400, 400);
         setVisible(true); 
         c.add(word);
-        // c.setFocusable(true);
-        // c.requestFocus();
     }
     
     class MyMouseListener extends MouseAdapter {
